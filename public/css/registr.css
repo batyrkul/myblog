@@ -1,0 +1,44 @@
+.pdf-form{width:1000px; position:relative; margin:0 auto;} 
+.pdf-form img{width:100%;}
+.form-101{    position: absolute;    top: 34px;   left: 55px; font-weight: bold;}
+.form-201{    position: absolute;        left: 492px;    top: 74px;
+    font-weight: bold;    letter-spacing: 9px;}
+.form-102{    position: absolute;    top: 142px;    font-size: 12px;
+    font-weight: bold;    left: 72px;    letter-spacing: 9px;}
+	
+.form-104{    position: absolute;        left: 348px;    top: 138px;
+    font-weight: bold;    letter-spacing: 9px;}
+.form-104-name{    position: absolute;    left: 405px; top: 135px;
+    width: 310px;    text-align: center;    font-weight: bold;}
+.form-108{position: absolute;    right: 142px;    top: 130px;
+    letter-spacing: 8.5px;    font-weight: bold;}
+.form-109{position: absolute;    right: 45px;    font-size: 12px;
+    top: 142px;} 
+.form-110{    position: absolute;       left: 35px;    top: 172px;
+    font-size: 12px;    font-weight: bold;}
+.form-111{	    position: absolute;    left: 360px;    top: 160px;
+    letter-spacing: 9px;
+}
+.form-oblast{    position: absolute;    right: 300px;
+    font-size: 12px;    top: 170px;    font-weight: bold;}
+	
+.form-ulica{
+	    position: absolute;    right: 45px;    font-size: 13px;
+    top: 168px;    font-weight: bold;
+}
+.form-line{ position: absolute;    top: 307px;
+    left: 70px;    font-weight: bold;    font-size: 10px; clear:both;} 
+.form-line .f-202{width: 50px;    text-align: center;    float: left;}	
+.form-line .f-203{float: left;    width: 50px;    text-align: center;}	
+.form-line .f-204{float: left;    width: 118px;   text-align: center;}	
+.form-line .f-205{float: left;    width: 110px;   text-align: center;}	
+.form-line .f-206{float: left;    width: 112px;   text-align: center;}	
+.form-line .f-207{float: left;    width: 110px;   text-align: center;}	
+.form-line .f-208{float: left;    width: 60px;  text-align: center;}	
+.form-line .f-209{float: left;    width: 65px; text-align: center;}	
+.form-line .f-210{float: left;    width: 65px; text-align: center;}	
+.form-line .f-211{float: left;    width: 70px; text-align: center;}	
+.form-line .f-212{float: left;    width: 100px; text-align: center;}
+.pdf-down{cursor:pointer;}	
+.pdf-form object{overflow:hidden;}
+object #wrapper{display:none;}
