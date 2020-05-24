@@ -39,6 +39,7 @@ body{    background: url(/img/bg.png) left 50% top 0px / auto auto no-repeat fix
 .tag-list a:hover{color: white}
 .tag-list span{margin-right:15px;}
 .ad-tools span{margin-right:5px;}
+.isset-img img{width: 100%}
 
 @media (min-width: 768px) and (max-width: 900px){
 

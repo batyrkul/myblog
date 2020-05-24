@@ -11,10 +11,10 @@ class IndexController extends Controller
 
     public function byTags($tag){
 
-        $news = News::withAnyTags([$tag])->get();
+        $news = News::withAnyTag([$tag])->get();
 
 
 
         return view("byTags")->with(["news"=>$news,"tag"=>$tag]);
     }
-}
+} 

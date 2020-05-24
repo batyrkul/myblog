@@ -57,13 +57,12 @@ class NewsController extends Controller
             "date" => $request->date,
             "auth" => $request->auth,
             "image" => "/images/".$new_name,
-            "tags" =>$tags,
             "tags_list" => $taglist,
         );
 
-        $newsitem = News::create($form_data);
+        $news =  News::create($form_data);
 
-        $newsitem->attachTags($tags);
+        $news->tag($tags);
 
 
         return redirect('/')->with('success', 'Data Added successfully.');
@@ -112,13 +111,12 @@ class NewsController extends Controller
             "date" => $request->date,
             "auth" => $request->auth,
             "image" =>$new_name,
-            "tags" =>$tags,
             "tags_list" => $taglist,
         );
 
         $news->update($form_data);
 
-        $news->syncTags($tags);
+        $news->retag($tags);
 
         return redirect('/');
     }
